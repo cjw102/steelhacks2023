@@ -1,1 +1,31 @@
-/*# sourceMappingURL=styles.css.map */
+.full-container {
+  margin: 0;
+  display: flex;
+}
+.full-container .sidebar {
+  padding: 0 1.1em;
+  background-color: #FAFAFA;
+}
+.full-container .sidebar .title-container .button-row button.vegan {
+  background: #6CFF8D;
+  border-radius: 31px;
+  padding: 0.5em 1em;
+}
+.full-container .sidebar .title-container .button-row button.pizza {
+  background: #FFDC81;
+  border-radius: 31px;
+  padding: 0.5em 1em;
+}
+.full-container .event {
+  background: #FFFFFF;
+  border: 1px solid #A4A4A4;
+  display: flex;
+}
+.full-container .event img {
+  width: 100px;
+  margin: 1.1em;
+}
+.full-container .event .event-desc {
+  width: 40%;
+  padding: 0 1.1em;
+}/*# sourceMappingURL=styles.css.map */
