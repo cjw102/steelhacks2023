@@ -1,24 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+body{
+    font-family: 'Inter', sans-serif;
+}
 
-  .full-container{
+.full-container{
     margin: 0;
     display: flex;
-
+    iframe{
+        height: 80vh;
+        width: 70vw;
+    }
     .sidebar{
         padding: 0 1.1em;
         background-color: #FAFAFA;
         .title-container{
+            .title-desc{
+                font-size: 20px;
+            }
             .button-row{
+                margin-top: 2.75em;
+                button{
+                    border-width: 0px;
+                    span{
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+                }
                 button.vegan{
                     background: #6CFF8D;
                     border-radius: 31px;
-                    padding: 0.5em 1em;
+                    padding: 0.8em 1.4em;
+                }
+                button.vegan:hover{
+                    background: #5ade77;
+                    box-shadow: 0 3 3 black;
                 }
                 button.pizza{                    
                     background: #FFDC81;
                     border-radius: 31px;
-                    padding: 0.5em 1em;
+                    padding: 0.8em 1.4em;
+                    margin-left: 2em;
                 }
+                button.pizza:hover{
+                    background: #d4b461;
+                } 
             }
         }
     }
@@ -28,7 +54,8 @@
         display: flex;
         img{
             width: 100px;
-            margin: 1.1em;;
+            margin: 1.1em;
+            border-radius: 120px;
         }
         .event-desc{
             width: 40%;
