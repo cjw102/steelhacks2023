@@ -5,7 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="/styles.css" />
-		<title>Panther Plate Saver</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Panther Plate Saver</title>
 	</head>
 	<body>
 		<div class="full-container">
@@ -76,24 +77,95 @@
 		<!-- Form For Submission  -->
 		<div class="container">
 			<form action="signup.html" method="post" id="signup">
-				<h1>Sign Up</h1>
+				<h1>Add Your Club's Event</h1>
 				<div class="field">
 					<label for="name">Name:</label>
 					<input
 						type="text"
 						id="name"
 						name="name"
-						placeholder="Enter your fullname"
+						placeholder="Enter your club's name"
 					/>
 					<small></small>
 				</div>
+				<!-- Email Field -->
 				<div class="field">
 					<label for="email">Email:</label>
 					<input
 						type="text"
 						id="email"
 						name="email"
-						placeholder="Enter your email address"
+						placeholder="Enter a valid email address"
+					/>
+					<small></small>
+				</div>
+
+				<!-- Date of the event -->
+				<div class="field">
+					<label for="date">Date:</label>
+					<input
+						type="text"
+						id="date"
+						name="date"
+						placeholder="What day will the event be(enter in form 01/01/2023)"
+					/>
+					<small></small>
+				</div>
+
+				<!-- Time of the event -->
+				<div class="field">
+					<label for="time">Time:</label>
+					<input
+						type="text"
+						id="time"
+						name="time"
+						placeholder="What time is the event going to be taking place at"
+					/>
+					<small></small>
+				</div>
+
+				<!-- Location of the event -->
+				<div class="field">
+					<label for="loc">Loc:</label>
+					<input
+						type="text"
+						id="loc"
+						name="loc"
+						placeholder="Where will the event be located"
+					/>
+					<small></small>
+				</div>
+				<!-- Food at the event -->
+				<div class="food">
+					<label for="food">Food:</label>
+					<input
+						type="text"
+						id="food"
+						name="food"
+						placeholder="What food will be provided at the event"
+					/>
+					<small></small>
+				</div>
+				<!-- Vegan, Gluten, etc. -->
+				<div class="food">
+					<label for="friendly">Friendly:</label>
+					<input
+						type="text"
+						id="friendly"
+						name="friendly"
+						placeholder="Specify if your food is vegan friendly, gluten friendly, etc"
+					/>
+					<small></small>
+				</div>
+
+				<!-- Description of the event -->
+				<div class="field">
+					<label for="desc">Desc:</label>
+					<input
+						type="text"
+						id="desc"
+						name="desc"
+						placeholder="Describe this event"
 					/>
 					<small></small>
 				</div>
