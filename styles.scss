@@ -1,0 +1,38 @@
+
+
+  .full-container{
+    margin: 0;
+    display: flex;
+
+    .sidebar{
+        padding: 0 1.1em;
+        background-color: #FAFAFA;
+        .title-container{
+            .button-row{
+                button.vegan{
+                    background: #6CFF8D;
+                    border-radius: 31px;
+                    padding: 0.5em 1em;
+                }
+                button.pizza{                    
+                    background: #FFDC81;
+                    border-radius: 31px;
+                    padding: 0.5em 1em;
+                }
+            }
+        }
+    }
+    .event{
+        background: #FFFFFF;
+        border: 1px solid #A4A4A4;
+        display: flex;
+        img{
+            width: 100px;
+            margin: 1.1em;;
+        }
+        .event-desc{
+            width: 40%;
+            padding: 0 1.1em;
+        }
+    }
+  }
