@@ -5,10 +5,17 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="/styles.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <title>Panther Plate Saver</title>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+		/>
+		<title>Panther Plate Saver</title>
 	</head>
 	<body>
+		<div class="top">
+			<h1>Panther Plate Saver</h1>
+			<p class="title-desc">Find the all Pitt events that provide free food!</p>
+		</div>
 		<div class="full-container">
 			<!-- Google Calendar -->
 			<iframe
@@ -21,9 +28,10 @@
 			></iframe>
 			<div class="sidebar">
 				<div class="title-container">
-					<h1>Panther Plate Saver</h1>
-					<p class="title-desc">Find the Pitt events that provide free food!</p>
+					<!-- <h1>Panther Plate Saver</h1>
+					<p class="title-desc">Find the Pitt events that provide free food!</p> -->
 					<div class="button-row">
+						<h3>Categories:</h3>
 						<button class="vegan"><span>Vegan Friendly 🥑</span></button>
 						<button class="pizza"><span>Pizza and Soda 🍕</span></button>
 					</div>
@@ -31,12 +39,12 @@
 				<div class="events-container">
 					<h2>Upcoming Events with Free Food</h2>
 					<div class="event">
-						<img src="/imgs/misa.jpg" alt="" />
+						<img src="/imgs/steel.png" alt="" />
 						<div class="event-desc">
-							<h3>#MISGO</h3>
+							<h3>Steelhacks 2023</h3>
 							<p>
-								We will be networking with Pitt alumni. Join us on 3/31/2023 at
-								2pm WPU 224
+								We will be networking with Pitt alumni. Join us on 3/25/2023 at
+								5pm Information Science Building, 3rd floor
 							</p>
 							<a href="">Join this event!</a>
 						</div>
@@ -66,8 +74,8 @@
 						<img src="/imgs/adverse.jpeg" alt="" />
 						<div class="event-desc">
 							<h3>ADDverse</h3>
-							<p>We will be networking with Pitt alumni.</p>
-							<p>Please contact HES77@pitt.edu to RSVP</p>
+							<p>We will be networking with Pitt alumni on 4/1/2023</p>
+							<p>Please contact pop77@pitt.edu to RSVP</p>
 						</div>
 						<ul class="foods">
 							<li>Pizza</li>
@@ -75,12 +83,14 @@
 							<li>Chips</li>
 						</ul>
 					</div>
+                    <a href="https://forms.gle/JGuJUUEY3aYg5bpY7" class="register"
+			>Add an event</a
 				</div>
 			</div>
 		</div>
 
-		<!-- Form For Submission  -->
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSckGN4Dn6oEGv95FSraiGBzNqYnapjsUdpiGjiWFTS4bL4NNw/viewform?embedded=true" width="640" height="1653" frameborder="" marginheight="0" marginwidth="0">Loading…</iframe>
+		
+		>
 		<!-- <div class="container">
 			<form action="signup.html" method="post" id="signup">
 				<h1>Add Your Club's Event</h1>
@@ -94,8 +104,8 @@
 					/>
 					<small></small>
 				</div> -->
-				<!-- Email Field -->
-				<!-- <div class="field">
+		<!-- Email Field -->
+		<!-- <div class="field">
 					<label for="email">Email:</label>
 					<input
 						type="text"
@@ -106,8 +116,8 @@
 					<small></small>
 				</div> -->
 
-				<!-- Date of the event -->
-				<!-- <div class="field">
+		<!-- Date of the event -->
+		<!-- <div class="field">
 					<label for="date">Date:</label>
 					<input
 						type="date"
@@ -118,8 +128,8 @@
 					<small></small>
 				</div> -->
 
-				<!-- Time of the event -->
-				<!-- <div class="field">
+		<!-- Time of the event -->
+		<!-- <div class="field">
 					<label for="time">Time:</label>
 					<input
 						type="time"
@@ -130,8 +140,8 @@
 					<small></small>
 				</div> -->
 
-				<!-- Location of the event -->
-				<!-- <div class="field">
+		<!-- Location of the event -->
+		<!-- <div class="field">
 					<label for="loc">Loc:</label>
 					<input
 						type="text"
@@ -141,8 +151,8 @@
 					/>
 					<small></small>
 				</div> -->
-				<!-- Food at the event -->
-				<!-- <div class="food">
+		<!-- Food at the event -->
+		<!-- <div class="food">
 					<label for="food">Food:</label>
 					<input
 						type="text"
@@ -152,8 +162,8 @@
 					/>
 					<small></small>
 				</div> -->
-				<!-- Vegan, Gluten, etc. -->
-				<!-- <div class="food">
+		<!-- Vegan, Gluten, etc. -->
+		<!-- <div class="food">
 					<label for="friendly">Friendly:</label>
 					<input
 						type="text"
@@ -164,8 +174,8 @@
 					<small></small>
 				</div> -->
 
-				<!-- Description of the event -->
-				<!-- <div class="field">
+		<!-- Description of the event -->
+		<!-- <div class="field">
 					<label for="desc">Desc:</label>
 					<input
 						type="text"
@@ -181,7 +191,5 @@
 			</form>
 		</div> -->
 		<script src="script.js"></script>
-		=======
-	
 	</body>
 </html>
