@@ -1,20 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .full-container {
   margin: 0;
   display: flex;
+}
+.full-container iframe {
+  height: 80vh;
+  width: 70vw;
 }
 .full-container .sidebar {
   padding: 0 1.1em;
   background-color: #FAFAFA;
 }
+.full-container .sidebar .title-container .title-desc {
+  font-size: 20px;
+}
+.full-container .sidebar .title-container .button-row {
+  margin-top: 2.75em;
+}
+.full-container .sidebar .title-container .button-row button {
+  border-width: 0px;
+}
+.full-container .sidebar .title-container .button-row button span {
+  font-weight: 600;
+  font-size: 16px;
+}
 .full-container .sidebar .title-container .button-row button.vegan {
   background: #6CFF8D;
   border-radius: 31px;
-  padding: 0.5em 1em;
+  padding: 0.8em 1.4em;
+}
+.full-container .sidebar .title-container .button-row button.vegan:hover {
+  background: #5ade77;
+  box-shadow: 0 3 3 black;
 }
 .full-container .sidebar .title-container .button-row button.pizza {
   background: #FFDC81;
   border-radius: 31px;
-  padding: 0.5em 1em;
+  padding: 0.8em 1.4em;
+  margin-left: 2em;
+}
+.full-container .sidebar .title-container .button-row button.pizza:hover {
+  background: #d4b461;
 }
 .full-container .event {
   background: #FFFFFF;
@@ -24,6 +54,7 @@
 .full-container .event img {
   width: 100px;
   margin: 1.1em;
+  border-radius: 120px;
 }
 .full-container .event .event-desc {
   width: 40%;
